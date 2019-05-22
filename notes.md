@@ -1,3 +1,5 @@
+#SQL
+
 ###Select all products where category ID is 2
 
 SELECT * FROM [Products] WHERE CategoryID = 2;
@@ -37,3 +39,5 @@ SELECT * FROM Customers WHERE City NOT LIKE '%on%; - Any that do not contain on 
 
 SELECT * FROM Customers WHERE Lower(City) LIKE %on%;
 
+
+# SQLite Studio
